@@ -1,0 +1,143 @@
+/*
+ * We've basically replaced the dark gray #333 with Transform design gray
+ *   gray: rgb 128 130 133 #808285
+ * and the active hover color teal #49a942 color with Transform design green
+ *   green: rgb 73 169 66 #49a942
+ * or could be blue
+ *   blue: rgb 0 85 150 #005596
+ *
+ * Donate yellow rgb 239, 197, 38 #c5260e
+ */
+.sf-menu.sf-style-transform {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
+}
+.sf-menu.sf-style-transform.sf-navbar {
+  width: 100%;
+}
+.sf-menu.sf-style-transform ul {
+  padding-left: 0;
+}
+.sf-menu.sf-style-transform a {
+  border: 1px solid #ffffff;
+  color: #f1f1f1;
+  padding: 0.75em 1em;
+  white-space: nowrap;
+}
+.sf-menu.sf-style-transform a.sf-depth-2 {
+  font-size: 0.8em;
+}
+.sf-menu.sf-style-transform a.sf-with-ul {
+  padding-right: 2.25em;
+}
+.sf-menu.sf-style-transform.rtl a.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+
+/* Overwrite padding to center text - Lee */
+.sf-menu.sf-style-transform a.sf-with-ul {
+	/* Center the text, even when there's a dropdown */
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.sf-menu.sf-style-transform.sf-navbar a {
+  border: 0;
+}
+.sf-menu.sf-style-transform span.sf-description {
+  color: #13a;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu.sf-style-transform li,
+.sf-menu.sf-style-transform li li,
+.sf-menu.sf-style-transform li li li,
+.sf-menu.sf-style-transform.sf-navbar {
+  background: #808285;
+}
+.sf-menu.sf-style-transform li:hover,
+.sf-menu.sf-style-transform li.sfHover,
+.sf-menu.sf-style-transform li.active-trail.sf-depth-1 a.sf-depth-1,
+.sf-menu.sf-style-transform li.active-trail.sf-depth-2 a.active,
+.sf-menu.sf-style-transform a:focus,
+.sf-menu.sf-style-transform a:hover,
+.sf-menu.sf-style-transform a:active, 
+.sf-menu.sf-style-transform.sf-navbar li li {
+  background: #49a942;
+  color: #ffffff;
+}
+.sf-menu.sf-style-transform li a.sf-depth-1 {
+  /* font-size: 0.9em; */
+}
+/* Donate, last on first level only */
+.sf-menu.sf-style-transform li.last a.sf-depth-1 {
+  background: #efc526;
+  
+  background: rgb(239,197,38); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgb(239,197,38) 0%, rgb(254,236,119) 5%, rgb(240,199,42) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(239,197,38)), color-stop(5%,rgb(254,236,119)), color-stop(100%,rgb(240,199,42))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgb(239,197,38) 0%,rgb(254,236,119) 5%,rgb(240,199,42) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgb(239,197,38) 0%,rgb(254,236,119) 5%,rgb(240,199,42) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgb(239,197,38) 0%,rgb(254,236,119) 5%,rgb(240,199,42) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgb(239,197,38) 0%,rgb(254,236,119) 5%,rgb(240,199,42) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc526', endColorstr='#f0c72a',GradientType=0 ); /* IE6-9 */
+  
+  color: #333;
+}
+.sf-menu.sf-style-transform.sf-navbar li ul {
+  background-color: #49a942;
+}
+.sf-menu.sf-style-transform.sf-navbar li ul li ul {
+  background-color: transparent;
+}
+.sf-menu.sf-style-transform ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-transform ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+	margin: 0;
+	padding: 0;
+}
+.sf-menu.sf-style-transform ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
+	font-weight: bold;
+}
+.sf-menu.sf-style-transform ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+	display: inline;
+	float: left;
+	width: 12em;
+}
+.sf-menu.sf-style-transform.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+	float: right;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-1 ul.sf-megamenu {
+	width: 12em;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-2 ul.sf-megamenu {
+	width: 24em;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-3 ul.sf-megamenu {
+	width: 36em;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-4 ul.sf-megamenu {
+	width: 48em;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-5 ul.sf-megamenu {
+	width: 60em;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-6 ul.sf-megamenu {
+	width: 72em;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-7 ul.sf-megamenu {
+	width: 84em;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-8 ul.sf-megamenu {
+	width: 96em;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-9 ul.sf-megamenu {
+	width: 108em;
+}
+.sf-menu.sf-style-transform li.sf-parent-children-10 ul.sf-megamenu {
+	width: 120em;
+}
