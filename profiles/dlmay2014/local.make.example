@@ -6,3 +6,19 @@ projects[drupal][version] = "7.x"
 ; include the d.o. profile base
 includes[] = "drupal-org.make"
 
+; +++++ Libraries +++++
+
+; json2
+libraries[json2][directory_name] = "json2"
+libraries[json2][type] = "library"
+libraries[json2][destination] = "libraries"
+libraries[json2][download][type] = "get"
+libraries[json2][download][url] = "" ; TODO add download URI
+
+; jquery.cycle
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][type] = "library"
+libraries[jquery.cycle][destination] = "libraries"
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "" ; TODO add download URI
+

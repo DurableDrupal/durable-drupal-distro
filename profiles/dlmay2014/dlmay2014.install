@@ -116,6 +116,11 @@ function dlmay2014_install() {
     ->execute();
   // Update the menu router information.
   menu_rebuild();
+  // revert features to ensure they are all installed
+  $features = array(
+    ''
+  );
+  features_revert($features);
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages
