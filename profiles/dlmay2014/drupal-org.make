@@ -112,6 +112,13 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_slideshow][version] = "3.1"
 projects[views_slideshow][subdir] = "contrib"
 
+; +++++ Themes +++++
+
+; adaptivetheme
+projects[adaptivetheme][type] = "theme"
+projects[adaptivetheme][version] = "3.2"
+projects[adaptivetheme][subdir] = "contrib"
+
 ; +++++ Libraries +++++
 
 ; CKEditor

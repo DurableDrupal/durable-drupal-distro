@@ -28,6 +28,7 @@ dependencies[] = filter
 dependencies[] = help
 dependencies[] = image
 dependencies[] = list
+dependencies[] = locale
 dependencies[] = menu
 dependencies[] = node
 dependencies[] = number

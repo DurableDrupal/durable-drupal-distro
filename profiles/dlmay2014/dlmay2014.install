@@ -6,7 +6,7 @@
  */
 function dlmay2014_install() {
   // Enable some dlmay2014 blocks.
-  $default_theme = 'bartik';
+  $default_theme = 'drupallean';
   $admin_theme = 'seven';
   // disable all themes
   db_update('system')
