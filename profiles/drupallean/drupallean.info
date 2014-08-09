@@ -9,6 +9,7 @@ core = "7.x"
 ; Administration
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
 dependencies[] = module_filter
 ; Chaos tool suite
 dependencies[] = ctools
@@ -78,8 +79,10 @@ dependencies[] = token
 ; Panels
 dependencies[] = panels
 dependencies[] = panels_mini
+dependencies[] = pps
 ; Path management
 dependencies[] = globalredirect
+dependencies[] = redirect
 ; Printer, email and PDF versions
 dependencies[] = print
 dependencies[] = print_mail
@@ -96,4 +99,8 @@ dependencies[] = views_slideshow_cycle
 dependencies[] = views_ui
 ; Features
 dependencies[] = features
+dependencies[] = fe_block
+dependencies[] = fe_nodequeue
+; Entityform
+dependencies[] = entityform
 
