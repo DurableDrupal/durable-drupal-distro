@@ -96,6 +96,7 @@ function drupallean_install() {
       'pages' => '',
       'cache' => -1,
     ),
+    /*
     array(
       'module' => 'search',
       'delta' => 'form',
@@ -116,6 +117,7 @@ function drupallean_install() {
       'pages' => '',
       'cache' => -1,
     ),
+    */
     array(
       'module' => 'system',
       'delta' => 'help',
